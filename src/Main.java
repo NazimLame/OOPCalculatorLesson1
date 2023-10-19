@@ -16,6 +16,8 @@ public class Main {
             double number2 = consoleUi.takeSecondNumber();
             String operation = consoleUi.takeOperation();
 
+
+
             switch (operation){
                 case "+":{
                     System.out.println(calculatorService.sum(number1,number2));
